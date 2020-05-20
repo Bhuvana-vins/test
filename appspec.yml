@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /package.json
     destination: /var/www/html/nodeapp/
-  - source: /node-modules
+  - source: /node_modules
     destination: /var/www/html/nodeapp/node-modules/
   - source: /dist
     destination: /var/www/html/nodeapp/
